@@ -1,10 +1,10 @@
 {
   "0": {
     "id": 1,
-    "when": "/",
-    "templateUrl": "../pages/login.html",
-    "controller" : "LoginController",
-    "controllerUrl": "../app/common/controller/LoginController"
+    "url_opc": "/",
+    "templateurl_opc": "page/login.html",
+    "controller_opc" : "LoginController",
+    "controllerurl_opc": "app/common/controller/LoginController"
   },
   "1": {
     "id": 2,

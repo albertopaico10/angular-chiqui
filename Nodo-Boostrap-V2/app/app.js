@@ -10,7 +10,7 @@ define(['angularAMD', 'angular-route','ui.bootstrap','bootstrap', 'constant','di
 
 		app.run(['$rootScope', '$http', '$route',
 			function($rootScope, $http, $route) {
-            $http.get('http://localhost:3000/json/get').
+            $http.get('http://localhost:86/angular-chiqui/Nodo-Boostrap-V2/app/json/list_controller.json').
             then(function successCallback(response) {
             	console.log("Entre"+response.data);
                angular.forEach(response.data, function (route) {
